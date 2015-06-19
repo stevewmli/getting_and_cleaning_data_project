@@ -1,4 +1,4 @@
-# Analysis the Human ctivity Recognition Using Smartphones Data Set
+# Smartphones Data Set - run_analysis output
 
 This cookbook describes the data output from the run_anaysis script.
 
@@ -7,6 +7,7 @@ Source data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%
 
 ## Transformation
 These are the transfomation applied to the data:
+
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 3. Uses descriptive activity names to name the activities in the data set
