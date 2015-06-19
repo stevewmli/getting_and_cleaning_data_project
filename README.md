@@ -34,6 +34,7 @@ directory: root directory of the sample data. Default to current directory (.)
 The main function, run_analysis, load the activity labels and featues, retrieve the test and training as dataset and  merge the two into one. We apply transformation to covert the combined data into the tidy dataset.
 
 run_analysis utilize load_table function to retrieve the test and training dataset. The function take three parameters:
+directory: data set root directory
 data_type: value can be test or train. It can be used to identify the test/train
     data directory and it corresponding data file
 activity_labels: table of activities (WALKING, SITTING, ...)
