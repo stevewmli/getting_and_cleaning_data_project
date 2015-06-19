@@ -16,16 +16,18 @@ This are the fucntion carry out by the main function:
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Usage
-library(dplyr)
-library(tidyr)
-source("run_analysis.R")
+## Usage
 
-setwd("C:\\DIRECTORY TO SAMPLE DATASET\UCI HAR Dataset")
-result <- run_analysis()
+> library(dplyr)
+> library(tidyr)
+> source("run_analysis.R")
+> 
+> setwd("C:\\DIRECTORY TO SAMPLE DATASET\UCI HAR Dataset")
+> result <- run_analysis()
 
 or
-result <- run_analysis("C:\\DIRECTORY TO SAMPLE DATASET\UCI HAR Dataset")
+
+> result <- run_analysis("C:\\DIRECTORY TO SAMPLE DATASET\UCI HAR Dataset")
 
 ## Arguments
 directory: root directory of the sample data. Default to current directory (.)
