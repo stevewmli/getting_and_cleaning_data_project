@@ -23,11 +23,12 @@ library: dplyr, tidyr
 
 ## Usage
 
-> library(dplyr)
-> library(tidyr)
+> library(dplyr); library(tidyr)
+>
 > source("run_analysis.R")
 > 
 > setwd("C:\\DIRECTORY TO SAMPLE DATASET\UCI HAR Dataset")
+>
 > result <- run_analysis()
 
 or
